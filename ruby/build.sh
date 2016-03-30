@@ -1,5 +1,5 @@
 #/bin/sh
-docker build -rm -t ruby_test .
+docker build --rm -t ruby_test .
 docker rm -f ruby_test &> /dev/null || true
 CURRENT_DIR=`pwd`
 docker run \

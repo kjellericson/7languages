@@ -1,3 +1,3 @@
 FROM ubuntu
-RUN apt-get install -y ruby emacs
+RUN apt-get install -y ruby
 CMD /bin/bash

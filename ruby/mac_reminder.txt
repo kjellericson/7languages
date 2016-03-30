@@ -1,0 +1,7 @@
+# Just a textfile with some reminders how to setup Docker on my Mac
+
+# Create machine
+docker-machine create --driver virtualbox default
+
+# Export env-variables
+eval "$(docker-machine env default)"
